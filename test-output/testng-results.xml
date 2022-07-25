@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T08:14:20 IST" name="Default suite" finished-at="2022-07-25T08:14:26 IST" duration-ms="6084">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T08:14:20 IST" name="Default test" finished-at="2022-07-25T08:14:26 IST" duration-ms="6084">
+      <class name="script.TestClass1">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.TestClass1@63376bed]" started-at="2022-07-25T08:14:20 IST" name="createReport" finished-at="2022-07-25T08:14:20 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method,java.lang.String)[pri:0, instance:script.TestClass1@63376bed]" started-at="2022-07-25T08:14:20 IST" name="openApp" finished-at="2022-07-25T08:14:26 IST" duration-ms="5850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script.TestClass1.testA()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testA()[pri:0, instance:script.TestClass1@63376bed]" started-at="2022-07-25T08:14:26 IST" name="testA" finished-at="2022-07-25T08:14:26 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestClass1@63376bed]" started-at="2022-07-25T08:14:26 IST" name="closeApp" finished-at="2022-07-25T08:14:26 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=TestClass1.testA()[pri:0, instance:script.TestClass1@63376bed] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.TestClass1@63376bed]" started-at="2022-07-25T08:14:26 IST" name="publishReport" finished-at="2022-07-25T08:14:27 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- script.TestClass1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
